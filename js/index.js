@@ -103,6 +103,7 @@ $(document).ready(function () {
     $("#yeti").click(function () {
         alert("Yaaaarrrr!");
         location.reload();
+        score = 0;
     });
 
     function checkscore() {
