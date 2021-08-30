@@ -108,6 +108,7 @@ $(document).ready(function () {
     function checkscore() {
         if ($("#score_number").text() == 800) {
             alert("You Win!");
+            score = 0;
             location.reload();
         }
     };
