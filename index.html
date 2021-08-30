@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Find the Penguins</title>
+    <meta charset="utf-8">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <audio id="playsound">
+        <source src="toy.mp3" type="audio/mp3">
+    </audio>
+    <audio id="gameover">
+        <source src="yetisound.mp3" type="audio/mp3">
+    </audio>
+    <script src="js/audio.js"></script>
+
+</head>
+
+<body>
+    <div id="gameholder">
+        <div id="title"></div>
+        <div id="score">Score:<span id="score_number"></span></div>
+<!--        <div id="user">Player:<span id="player_name"></span></div>-->
+        <div id="shuffle">
+            <div id="penguin1" onclick="playsound()"></div>
+            <div id="penguin2" onclick="playsound()"></div>
+            <div id="penguin3" onclick="playsound()"></div>
+            <div id="penguin4" onclick="playsound()"></div>
+            <div id="penguin5" onclick="playsound()"></div>
+            <div id="penguin6" onclick="playsound()"></div>
+            <div id="penguin7" onclick="playsound()"></div>
+            <div id="penguin8" onclick="playsound()"></div>
+            <div id="yeti" onclick="gameoversound()"></div>
+        </div>
+    </div>
+</body>
+
+</html>
