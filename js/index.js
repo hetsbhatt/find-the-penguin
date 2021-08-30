@@ -80,24 +80,6 @@ $(document).ready(function () {
         checkscore();
     });
     
-//     $("#penguin8").click(function () {
-//         $(this).css("background-image", "url('images/penguin_8.png')");
-//         score = score + 100;
-//         $("#score_number").text(score);
-//         $("#penguin8").off('click');
-//         checkscore();
-//     });
-    
-//     $("#penguin8").click(function () {
-//         $(this).css("background-image", "url('images/penguin_8.png')");
-//         score = score + 100;
-//         $("#score_number").text(score);
-//         $("#penguin8").off('click');
-//         checkscore();
-//     });
-    
-    
-
     //This code will run after your page loads
 
     $("#yeti").click(function () {
